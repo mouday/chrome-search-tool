@@ -1,22 +1,21 @@
 # 搜索引擎快捷导航
 
-一个简单的chrome插件（教程）
+## 一个简单的chrome插件（教程）
 
-实现效果：
+1. 实现效果：
 
-![](images/com_96x96.png)
+![](images/search-tool-show.png)
 
-简单理解：chrome扩展程序就是一个web应用，小型网站，只不过是在chrome上多了个快捷方式
+2. 简单理解：chrome扩展程序就是一个web应用，小型网站，只不过是在chrome上多了个快捷方式
 
-必备知识(初级即可)：
+3. 必备知识(初级即可)：
 ```
 html
 css
 javascript
 ```
 
-必备工具
-chrome浏览器（本次使用的版本是 69）
+4. 必备工具: chrome浏览器（本次使用的版本是 69）
 
 # 第一步：初始化项目
 
@@ -127,6 +126,9 @@ manifest.json
 ```
 
 其实就是html + css + javascript
+
+备注：如果出现中文乱码，记得在文件顶部加入`<meta charset="utf8">`，此方法和html编码是一样的，没有什么特别之处
+
 
 # 第四步：配置图标
 
