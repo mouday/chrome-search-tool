@@ -33,7 +33,7 @@ chrome-search-tool/
 
 manifest.json
 
-```
+```json
 {  
   "name": "searchTool",  
   "manifest_version":2,
@@ -61,7 +61,7 @@ manifest.json
 
 # 第三步：编写popup页面
 
-```
+```html
 <meta charset="utf8">
 <base target="_blank" />
 <style>
